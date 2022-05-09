@@ -9,8 +9,9 @@ nav {
     width: 100%;
     position: fixed;
     background: linear-gradient(rgba(0, 0, 0, 1), transparent);
-    text-align: end;
     padding: 20px;
+    z-index: 999;
+    
 }
 
 .divSup {
@@ -21,9 +22,11 @@ nav {
 
 .divServicos {
     position: absolute;
-    margin-top: 2%;
-    height: 96vh;
-    width: 55vh;
+    background-image: url(images/bgcomentario.png);
+    margin-top: 10%;
+    margin-left: 50px;
+    height: 78vh;
+    width: 63vh;
     padding: 5vh;
     overflow: auto;
     overflow-y: visible;
@@ -43,18 +46,71 @@ nav {
     border-radius: 25px;
 }
 
-.divbg {
-    width: 100%;
-    height: 100%;
+.formulario {
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #0f0f0f;
+    margin-top: 150px;
+    border-radius: 15px;
+    height: 450px;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 95%;
+}
+
+.whats {
+    position: absolute;
+    z-index: 9999;
+    display: flex;
+    justify-content: end;
+    margin-top: 38%;
+    margin-left: 92%;
+}
+
+.button {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 95%;
+    background-color: #2d2d2d;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.formcontact {
+    display: inline-block;
+    width: 600px;
+    margin-left: -8px;
+}
+
+.formmap {
+    display: inline-block;
+    margin-right: 0px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
 }
 
 .logo {
-    position: relative;
-    display: flex;
-    justify-content: left;
-    align-items: flex-start;
-    width: 40ch;
-    z-index: 999;
+    width: 35ch;
+    vertical-align: top;
+    margin-right: 45%;
 }
 
 nav ul li {
